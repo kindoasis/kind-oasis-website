@@ -111,3 +111,15 @@ footer{grid-template-columns:1fr}
 .actions{align-items:flex-start;flex-direction:column}
 .section{padding-top:4rem;padding-bottom:4rem}
 }
+.hero-art p {
+  max-width: calc(100% - 4rem);
+  margin: 0;
+  padding: .65rem 1rem;
+  color: #fff;
+  background: rgba(43, 19, 54, .88);
+  border: 1px solid rgba(255, 255, 255, .28);
+  border-radius: 999px;
+  box-shadow: 0 8px 24px rgba(43, 19, 54, .22);
+  font-weight: 600;
+  line-height: 1.2;
+}
