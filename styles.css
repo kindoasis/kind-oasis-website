@@ -122,4 +122,41 @@ footer{grid-template-columns:1fr}
   box-shadow: 0 8px 24px rgba(43, 19, 54, .22);
   font-weight: 600;
   line-height: 1.2;
+}.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-art p {
+  left: 50%;
+  width: calc(100% - 4rem);
+  max-width: none;
+  padding: .75rem 1rem;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.cta .actions {
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 520px) {
+  .hero-copy .actions,
+  .cta .actions {
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .hero-copy .button,
+  .cta .button {
+    width: 100%;
+  }
+
+  .cta .text-link {
+    width: 100%;
+    text-align: center;
+  }
 }
