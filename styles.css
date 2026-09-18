@@ -28,7 +28,7 @@ h3{font-size:1.45rem;margin:.6rem 0}
 .lede{font-size:clamp(1.1rem,2vw,1.35rem);max-width:690px}
 .actions{display:flex;align-items:center;gap:1.4rem;flex-wrap:wrap;margin-top:2rem}
 .micro,.note{font-size:.85rem;opacity:.75}
-.hero-art{min-height:500px;position:relative;overflow:hidden;background:url("assets/blue-ridge-hero.webp") center/cover no-repeat;border-radius:2rem;box-shadow:0 22px 70px rgba(77,20,93,.2)}
+.hero-art{min-height:500px;position:relative;overflow:hidden;background:url("assets/blue-ridge-hero.webp") 76% center/cover no-repeat;border-radius:2rem;box-shadow:0 22px 70px rgba(77,20,93,.2)}
 .hero-art p{position:absolute;top:9%;left:50%;width:82%;margin:0;color:#3d164b;font-family:var(--serif);font-size:clamp(2rem,4vw,3.8rem);font-weight:500;letter-spacing:-.025em;line-height:1.04;text-align:center;text-shadow:0 2px 0 rgba(255,255,255,.5);transform:translateX(-50%);z-index:2}
 .hero-art p em{color:#7b3e8b;font-weight:600}
 .hero-art p span{font-size:.82em}
