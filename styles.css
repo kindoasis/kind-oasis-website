@@ -41,6 +41,12 @@ h3{font-size:1.45rem;margin:.6rem 0}
 .intro p{font-size:1.1rem}
 .services{background:var(--mist)}
 .services>h2{max-width:700px}
+.therapy-pathways{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin:3rem 0 2rem}
+.therapy-pathway{background:linear-gradient(145deg,#fff,#f7eff9);border:1px solid rgba(93,27,110,.13);border-radius:1.4rem;padding:clamp(2rem,4vw,3rem);box-shadow:0 16px 42px rgba(77,20,93,.07)}
+.therapy-pathway:nth-child(2){background:linear-gradient(145deg,#f2e7f6,#fff)}
+.therapy-pathway h3{font-size:clamp(2rem,3vw,2.8rem);max-width:520px}
+.therapy-pathway p:not(.resource-tag){max-width:620px}
+.therapy-pathway .card-link{display:inline-block;margin-top:1rem}
 .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:3rem}
 .card-grid article{background:var(--cream);padding:2rem;border-radius:1rem;min-height:290px;display:flex;flex-direction:column}
 .card-grid article p{margin-top:auto}
@@ -126,6 +132,21 @@ footer a{color:#fff}
 .article-sources a{color:var(--forest);overflow-wrap:anywhere}
 .more-resources{background:var(--mist);padding:clamp(4rem,7vw,6rem) clamp(1.25rem,7vw,7rem);text-align:center}
 .more-resources h2{font-size:clamp(2rem,4vw,3.2rem)}
+.service-hero{padding:clamp(5rem,9vw,8rem) clamp(1.25rem,7vw,7rem);background:linear-gradient(145deg,#fdfafc,#e9dced)}
+.service-hero>div{max-width:980px}
+.service-hero h1{font-size:clamp(3.1rem,6.5vw,6.3rem)}
+.service-links{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
+.service-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr);gap:clamp(3rem,8vw,8rem);align-items:start}
+.service-copy>p:first-of-type{font-size:1.2rem}
+.service-copy h2{font-size:clamp(2rem,4vw,3.2rem);margin-top:3rem}
+.service-copy li{margin-bottom:.8rem}
+.service-panel{background:var(--sand);border-radius:1.3rem;padding:2rem;position:sticky;top:110px}
+.service-panel h2{font-size:2rem}
+.service-panel .button{width:100%;margin:1rem 0}
+.service-panel .text-link{display:block;text-align:center}
+.service-note{background:var(--mist);border-left:4px solid var(--clay);padding:1.4rem 1.6rem;border-radius:0 1rem 1rem 0;margin:2rem 0}
+.service-areas{background:#fff}
+.service-areas .card-grid article{border:1px solid rgba(93,27,110,.1)}
 @media(max-width:900px){.site-header{height:72px}
 .menu{display:block}
 .site-header nav{display:none;position:absolute;left:0;right:0;top:72px;background:var(--cream);padding:1.5rem;flex-direction:column;align-items:stretch;border-bottom:1px solid #ddd}
@@ -144,6 +165,8 @@ footer{grid-template-columns:1fr}
 .resource-card{min-height:unset}
 .article-layout{grid-template-columns:1fr}
 .article-aside{position:static}
+.therapy-pathways,.service-layout{grid-template-columns:1fr}
+.service-panel{position:static}
 }
 @media(max-width:520px){h1{font-size:3.3rem}
 .hero-art{min-height:330px}
