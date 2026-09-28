@@ -176,3 +176,19 @@ footer{grid-template-columns:1fr}
 .cta .text-link{width:100%;text-align:center}
 .section{padding-top:4rem;padding-bottom:4rem}
 }
+
+.jobs-hero h1{font-size:clamp(3.3rem,7vw,6.5rem)}
+.jobs-intro{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,8vw,9rem)}
+.jobs-intro p{font-size:1.1rem}
+.jobs-list{padding-top:0;display:grid;gap:1.5rem}
+.job-opening{display:grid;grid-template-columns:minmax(240px,.82fr) minmax(0,1.18fr);gap:clamp(2rem,6vw,6rem);padding:clamp(2rem,5vw,4rem);background:#fff;border:1px solid rgba(93,27,110,.14);border-radius:1.4rem;box-shadow:0 16px 45px rgba(77,20,93,.06);scroll-margin-top:105px}
+.job-opening:nth-child(2){background:var(--mist)}
+.job-heading h2{font-size:clamp(2.2rem,4vw,3.7rem)}
+.job-heading>p:last-child{font-weight:600;color:var(--forest)}
+.job-details{max-width:680px;font-size:1.05rem}
+.job-details h3{margin-top:2rem}
+.job-details ul{padding-left:1.3rem}
+.job-details li{margin-bottom:.65rem}
+.job-details .button{margin-top:1rem}
+.jobs-cta{background:var(--sand)}
+@media(max-width:900px){.jobs-intro,.job-opening{grid-template-columns:1fr}}
